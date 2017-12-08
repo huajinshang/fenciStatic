@@ -1,0 +1,25 @@
+自己邮箱：	yangjinrui@lawsiji.com
+          	Yangjinrui006
+企业邮箱：	mail.lawsiji.com
+
+git账号：	yangjinrui@lawsiji.com
+	 	yangjinrui
+
+项目设计地址：	http://47.92.94.168:10080/tech/ui-project.git
+项目总地址      http://47.92.94.168:10080/tech/wence-project
+
+自己的微信小程序的ID：wx2b9420e842fe849d
+		密钥：0e1f2894e4bfbed1c9ab569f74f68257
+
+wnmp服务器的账号：
+
+问商友张露姐账号：zhanglu201708       密码：6300615zl
+
+公司打印机驱动地址：https://support.hp.com/cn-zh/drivers/selfservice/hp-laserjet-pro-mfp-m225-series/6778491
+公司打印机的ip地址：192.168.1.62
+
+数据库根账户账号：root
+	    密码：123456
+
+阿里git账号：	2430960358
+		sunhua521
