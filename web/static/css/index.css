@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg.png") top center no-repeat #f4f4f4;
+    background-size: 100%;
+    font-family: "Microsoft YaHei UI";
+}
+
+/*头部*/
+header {
+    width: 100%;
+    height: 48px;
+    background: #343C43;
+    margin-bottom: 60px;
+}
+
+.header {
+    width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.header-title {
+    height: 100%;
+    line-height: 48px;
+    font-size: 16px;
+    color: white;
+}
+
+/*中间*/
+main {
+    width: 100%;
+}
+
+.main-box {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.menu-tab {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-item {
+    width: 50%;
+    height: 100%;
+    line-height: 40px;
+    background: #4c99ed;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tab-item.active {
+    background: #05a;
+}
+
+.content {
+    width: 1000px;
+    height: 600px;
+    list-style: none;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content > li {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.content > li.active {
+    display: block;
+}
+
+.selectbox {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.selectbtn {
+    width: 100%;
+    margin: 30px 0;
+    position: relative;
+    z-index: 10;
+}
+
+#select-box {
+    width: 80px;
+    height: 24px;
+}
+
+.selectcon {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#result, #input {
+    width: 45%;
+    height: 240px;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    resize: none;
+}
+
+#result {
+    font-size: 16px;
+    overflow-y: scroll;
+}
+
+.transform {
+    width: 82px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.addwordbox {
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.btnadd {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#addcon {
+    width: 100%;
+    height: 240px;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    resize: none;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.addbtn,.add {
+    width: 50px;
+    height: 30px;
+}
+
+.downbtn {
+    width: 50px;
+    height: 30px;
+}
+
+
+.downloadbtn,.clearbtn,.uploadbtn,.uploadExcelbtn {
+    width: 80px;
+    height: 30px;
+}
+
+.fileadd {
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding: 10px 20px;
+}
+
+.download,.excel,.upload{
+    width: 100%;
+    height: 240px;
+    display: none;
+}
+
+.uploadfile {
+    width: 60%;
+    height: 32px;
+}
+
+span {
+    color: red;
+}
+.downStatus{
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+}
+.downStatus:hover{
+    color: red;
+}
+#download>p{
+    padding: 10px;
+}
+#upload>p{
+    padding: 6px 10px;
+}
+
+/*右键快速添加*/
+#menu {
+    width: 140px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #AEACAE;
+    background: #fff;
+    box-shadow: 3px 3px 3px -2px rgba(0, 0, 0, 0.68);
+    padding: 5px 15px;
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+}
+
+.menu-item {
+    width: 100%;
+    height: 26px;
+    line-height: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid #ddd;
+}
+
